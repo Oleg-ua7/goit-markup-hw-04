@@ -533,10 +533,14 @@ h1 {
   margin-right: 10px;
 }
 
+.social-list:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-icon-svg {
-   width: 20px;
-    height: 20px;
-    fill: var(--socials-main-color);
+   width: 44px;
+    height: 44px;
+    fill: var(--primary-white-color);
  /* display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -556,7 +560,7 @@ h1 {
 
 
 .social-icon-list {
-  display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 44px;
@@ -567,14 +571,21 @@ h1 {
 
 .social-icon-list:hover .social-icon-svg{
   fill: var(--accent-color);
-  /* color: var(--secondary-text-color); */
 }
+
+
+
+/* .link-color:hover{
+  color: var(--primary-white-color);
+} */
 
 .social-list {
   display: flex;
   justify-content: center;
   margin-bottom: 24px;
 }
+
+
 
 
   /* display: inline-block;
