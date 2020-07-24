@@ -266,7 +266,7 @@ img {
 /* Hero */
 
 .hero {
-  max-width: 1600px;
+  /* min-width: 1600px; */
   height: 600px;
   background-image: linear-gradient(
       to bottom,
@@ -528,10 +528,15 @@ h1 {
  
   /* padding-left: 32px; */
 }
+
+.social-icon-list:not(:last-child) {
+  margin-right: 10px;
+}
+
 .social-icon-svg {
    width: 20px;
-  height: 20px;
-  fill: #afb1b8;
+    height: 20px;
+    fill: var(--socials-main-color);
  /* display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -547,19 +552,17 @@ h1 {
   color: var(--accent-color);
 } */
 
-.social-icon-list:not(:last-child) {
-  margin-right: 10px;
-}
+
 
 
 .social-icon-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-    /* margin-right: 10px; */
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--primary-white-color);
 }
 
 .social-icon-list:hover .social-icon-svg{
