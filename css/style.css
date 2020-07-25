@@ -510,6 +510,19 @@ p {
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
+
+.title-item {
+  padding-right: 24px;
+  padding-bottom: 4px;
+  padding-left: 24px;
+}
+
+.description-item {
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
 .works-list {
   display: flex;
   flex-wrap: wrap;
